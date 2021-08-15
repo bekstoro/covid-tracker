@@ -4,7 +4,7 @@ import paramsReducer from './params.slice';
 import provincesReducer from './provinces.slice';
 import reportsReducer from './reports.slice';
 
-export const index = configureStore({
+export const store = configureStore({
   reducer: {
     params: paramsReducer,
     provinces: provincesReducer,
